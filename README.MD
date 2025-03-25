@@ -2,7 +2,7 @@
  * @Author: Rongxin rongxin@u.nus.edu
  * @Date: 2025-03-25 23:52:25
  * @LastEditors: Rongxin rongxin@u.nus.edu
- * @LastEditTime: 2025-03-26 01:52:04
+ * @LastEditTime: 2025-03-26 01:56:51
  * @FilePath: /hugging-face-user-scrawler/README.MD
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -35,6 +35,12 @@ hugging-face-user-scrawler/
 ├── script/             # Utility scripts
 └── tmp/                # Temporary files
 ```
+
+## Data Link
+- Scraping tasks `[TBD]`  
+- Model details `[TBD]`  
+- User profiles `[TBD]`  
+- Social networks `[TBD]`  
 
 ## Key Modules
 
@@ -118,19 +124,23 @@ The result will be stored in `data/result/users.jsonl`. You can use the Jupyter 
 - Social network
   ![social_network](output/figure/network.png)
 
-## Author
-
-- **Rongxin** - [rongxin@u.nus.edu](mailto:rongxin@u.nus.edu)
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
 ## TODO  
 [ ] Add frequency control  
 [ ] Add proxy settings  
 [ ] Add a mysql pipeline  
 [ ] Add a sample analysis notebook  
+
+## Citation
+```bibtex
+@misc{huggingface_user_crawler,
+  author       = {Rongxin Ouyang},
+  title        = {reycn/huggingface-user-crawler},
+  year         = {2025},
+  url          = {https://github.com/reycn/huggingface-user-crawler},
+  note         = {Accessed: 2025-03-26},
+  howpublished = {\url{https://github.com/reycn/huggingface-user-crawler}}
+}
+```
 
 ## License
 
