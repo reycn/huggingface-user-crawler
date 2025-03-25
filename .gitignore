@@ -181,3 +181,6 @@ data/raw/*
 data/task/huggingface_users.csv
 data/result/users.jsonl
 .gitignore
+data/process/social.network/network.gml
+.gitignore
+data/process/social.network/network.edges.csv
