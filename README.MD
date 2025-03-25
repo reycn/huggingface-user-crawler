@@ -2,11 +2,11 @@
  * @Author: Rongxin rongxin@u.nus.edu
  * @Date: 2025-03-25 23:52:25
  * @LastEditors: Rongxin rongxin@u.nus.edu
- * @LastEditTime: 2025-03-26 01:56:51
+ * @LastEditTime: 2025-03-26 02:02:20
  * @FilePath: /hugging-face-user-scrawler/README.MD
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
-
+![huggingface-user-crawler](output/figure/huggingface-user-crawler.jpeg)
 # Hugging Face User Crawler
 
 A Scrapy-based web crawler designed to collect and analyze user data from Hugging Face, the popular machine learning platform. This project helps gather insights about user activities, contributions, and interactions within the Hugging Face community.
