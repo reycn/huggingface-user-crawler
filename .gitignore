@@ -1,5 +1,4 @@
 logs
-data
 tmp
 
 # Byte-compiled / optimized / DLL files
@@ -176,3 +175,9 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+data/raw/*
+.gitignore
+.gitignore
+data/task/huggingface_users.csv
+data/result/users.jsonl
+.gitignore

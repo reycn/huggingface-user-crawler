@@ -2,7 +2,7 @@
 Author: Rongxin rongxin@u.nus.edu
 Date: 2025-03-25 23:57:52
 LastEditors: Rongxin rongxin@u.nus.edu
-LastEditTime: 2025-03-26 01:06:26
+LastEditTime: 2025-03-26 01:10:22
 FilePath: /hugging-face-user-scrawler/hf_user_scrawler/hf_user_scrawler/spiders/example.py
 Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 '''
@@ -20,7 +20,7 @@ class hf_user_scrawler(scrapy.Spider):
     allowed_domains = ["huggingface.co"]
     df_path = "../data/task/huggingface_users.csv"
     pp(f"[blue bold][>>] Reading {df_path} for urls...[/]")
-    df_start = pd.read_csv(df_path).head(5)
+    df_start = pd.read_csv(df_path).head(100)
     start_urls = df_start["url"].tolist()
     # start_urls += ["https://huggingface.co/JustinLin610"]
     pp(f"[green bold][<<] Successfully retrieved {len(start_urls)} urls from the csv file.[/]")
