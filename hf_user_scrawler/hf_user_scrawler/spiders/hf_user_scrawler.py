@@ -20,7 +20,7 @@ class hf_user_scrawler(scrapy.Spider):
     allowed_domains = ["huggingface.co"]
     df_path = "../data/task/huggingface_users.csv"
     pp(f"[blue bold][>>] Reading {df_path} for urls...[/]")
-    df_start = pd.read_csv(df_path).head(100)
+    df_start = pd.read_csv(df_path)
     start_urls = df_start["url"].tolist()
     # start_urls += ["https://huggingface.co/JustinLin610"]
     pp(f"[green bold][<<] Successfully retrieved {len(start_urls)} urls from the csv file.[/]")

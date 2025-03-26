@@ -1,0 +1,1 @@
+conda init && conda activate scrape && cd hf_user_scrawler &&  scrapy crawl hf_user_scrawler -o ../data/result/users.jsonl  

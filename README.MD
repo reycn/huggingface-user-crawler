@@ -2,7 +2,7 @@
  * @Author: Rongxin rongxin@u.nus.edu
  * @Date: 2025-03-25 23:52:25
  * @LastEditors: Rongxin rongxin@u.nus.edu
- * @LastEditTime: 2025-03-26 02:16:09
+ * @LastEditTime: 2025-03-26 19:06:06
  * @FilePath: /hugging-face-user-scrawler/README.MD
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -37,11 +37,11 @@ hugging-face-user-scrawler/
 ```
 
 ## Data Link
-- Scraping tasks `[TBD]`  
+- Scraping tasks: [OneDrive](https://1drv.ms/f/c/7899f3f566e5efe5/Ei2nIyibobxMlBWGjGz7bdIBn-cTWUhy4ajSY1aH9yTqiQ?e=LejL3Q)
+- **User profiles (result)**: [Sample on OneDrive](https://1drv.ms/f/c/7899f3f566e5efe5/EjbbKNowwQRGtfak7roKT5IBuN7GbsrNOTg8Go894PMqbQ?e=VlhjVm)`[TBD]`  
+- Social networks: [Sample on OneDrive](https://1drv.ms/f/c/7899f3f566e5efe5/EnKAHPmI0P9CiM6EQjr4vAQBKwRp__sRNfyA3M-QVdc-dA?e=OPjiKc) `[TBD]`  
 - Model details `[TBD]`  
-- User profiles `[TBD]`  
-- Social networks `[TBD]`  
-- Kaggle data card: https://www.kaggle.com/datasets/reypku/hugging-face-user-profiles-and-social-networks/data `[No data; TBD]`
+- Kaggle data card: https://www.kaggle.com/datasets/reypku/hugging-face-user-profiles-and-social-networks/data `[No data yet; TBD]`
 
 ## Key Modules
 

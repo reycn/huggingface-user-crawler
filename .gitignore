@@ -185,3 +185,10 @@ data/result/users.jsonl
 data/process/social.network/network.gml
 .gitignore
 data/process/social.network/network.edges.csv
+data/result/users2.jsonl
+.gitignore
+*/.DS_Store
+data/process/.DS_Store
+data/result/users.all.jsonl
+.DS_Store
+data/.DS_Store
