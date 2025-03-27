@@ -1,4 +1,4 @@
-# Scrapy settings for hf_user_scrawler project
+# Scrapy settings for hf_user_crawler project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -7,14 +7,14 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = "hf_user_scrawler"
+BOT_NAME = "hf_user_crawler"
 
-SPIDER_MODULES = ["hf_user_scrawler.spiders"]
-NEWSPIDER_MODULE = "hf_user_scrawler.spiders"
+SPIDER_MODULES = ["hf_user_crawler.spiders"]
+NEWSPIDER_MODULE = "hf_user_crawler.spiders"
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = "hf_user_scrawler (+http://www.yourdomain.com)"
+#USER_AGENT = "hf_user_crawler (+http://www.yourdomain.com)"
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -45,13 +45,13 @@ ROBOTSTXT_OBEY = True
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    "hf_user_scrawler.middlewares.HfUserScrawlerSpiderMiddleware": 543,
+#    "hf_user_crawler.middlewares.HfUsercrawlerSpiderMiddleware": 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    "hf_user_scrawler.middlewares.HfUserScrawlerDownloaderMiddleware": 543,
+#    "hf_user_crawler.middlewares.HfUsercrawlerDownloaderMiddleware": 543,
 #}
 
 # Enable or disable extensions
@@ -63,7 +63,7 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    "hf_user_scrawler.pipelines.HfUserScrawlerPipeline": 300,
+#    "hf_user_crawler.pipelines.HfUsercrawlerPipeline": 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)

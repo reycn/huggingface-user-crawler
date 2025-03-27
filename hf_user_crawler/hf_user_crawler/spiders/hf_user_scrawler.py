@@ -3,7 +3,7 @@ Author: Rongxin rongxin@u.nus.edu
 Date: 2025-03-25 23:57:52
 LastEditors: Rongxin rongxin@u.nus.edu
 LastEditTime: 2025-03-26 01:10:22
-FilePath: /hugging-face-user-scrawler/hf_user_scrawler/hf_user_scrawler/spiders/example.py
+FilePath: /hugging-face-user-crawler/hf_user_crawler/hf_user_crawler/spiders/example.py
 Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 '''
 import re
@@ -15,8 +15,8 @@ import scrapy
 from rich import print as pp
 
 
-class hf_user_scrawler(scrapy.Spider):
-    name = "hf_user_scrawler"
+class hf_user_crawler(scrapy.Spider):
+    name = "hf_user_crawler"
     allowed_domains = ["huggingface.co"]
     df_path = "../data/task/huggingface_users.csv"
     pp(f"[blue bold][>>] Reading {df_path} for urls...[/]")

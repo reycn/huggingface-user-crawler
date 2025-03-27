@@ -6,7 +6,7 @@
 import scrapy
 
 
-class HfUserScrawlerItem(scrapy.Item):
+class HfUsercrawlerItem(scrapy.Item):
     # define the fields for your item here like:
     user_id = scrapy.Field()
     user_name = scrapy.Field()

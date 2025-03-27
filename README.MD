@@ -3,7 +3,7 @@
  * @Date: 2025-03-25 23:52:25
  * @LastEditors: Rongxin rongxin@u.nus.edu
  * @LastEditTime: 2025-03-26 19:26:50
- * @FilePath: /hugging-face-user-scrawler/README.MD
+ * @FilePath: /hugging-face-user-crawler/README.MD
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
 ![huggingface-user-crawler](output/figure/huggingface-user-crawler.jpeg)
@@ -73,11 +73,11 @@ This crawler is built to systematically collect user information from Hugging Fa
 ## Folder Structure
 
 ```
-hugging-face-user-scrawler/
+hugging-face-user-crawler/
 ├── config/               # Configuration files
 ├── data/                # Scraped data storage
 ├── doc/                 # Project documentation
-├── hf_user_scrawler/    # Main crawler package
+├── hf_user_crawler/    # Main crawler package
 │   ├── spiders/        # Spider definitions
 │   └── scrapy.cfg      # Scrapy configuration
 ├── logs/                # Log files
@@ -113,8 +113,8 @@ The config module manages:
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/hugging-face-user-scrawler.git
-cd hugging-face-user-scrawler
+git clone https://github.com/yourusername/hugging-face-user-crawler.git
+cd hugging-face-user-crawler
 ```
 
 2. Install dependencies
@@ -128,7 +128,7 @@ conda env create -f config/conda.env
 
 4. Run the crawler
 ```bash
- scrapy crawl hf_user_scrawler -o ../data/result/users.jsonl  
+ scrapy crawl hf_user_crawler -o ../data/result/users.jsonl  
 ```
 5. Analyze the data
 The result will be stored in `data/result/users.jsonl`. You can use the Jupyter notebooks in the `notebook/` folder to analyze the data.
