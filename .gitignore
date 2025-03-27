@@ -193,3 +193,4 @@ data/result/users.all.jsonl
 .DS_Store
 data/.DS_Store
 .DS_Store
+data/process/user.info.tsv
